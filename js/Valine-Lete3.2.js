@@ -14,6 +14,7 @@
  * 2020-6-18: 修复部分浏览器不能显示问题
  * 2020-6-19: 1.增加随机头像  2.修改回复按钮不能自定义的问题(可以写一个css样式#vcomment .vat {}覆盖掉默认样式)
  * 2020-7-15: 1.解除程序的耦合性，使部分功能不在依赖源程序，可自定义化
+ * 2020-7-29: 1.修改评论昵称长度为2个字不能评论的问题
  *
  *
  *                                   Lete乐特魔改版
@@ -1485,7 +1486,7 @@
             };
             var z = e.$el.find(".vsubmit"),
                 L = function(t) {
-                    if (e.config.requiredFields.indexOf("nick") > -1 && E.nick.length < 3) return v.nick[0].focus(), void e.$el.find(".status-bar").text("" + e.i18n.t("nickFail")).empty(3e3);
+                    if (e.config.requiredFields.indexOf("nick") > -1 && E.nick.length <= 2) return v.nick[0].focus(), void e.$el.find(".status-bar").text("" + e.i18n.t("nickFail")).empty(3e3);
                     if (e.config.requiredFields.indexOf("mail") > -1 && !/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(E.mail)) return v.mail[0].focus(), void e.$el.find(".status-bar").text("" + e.i18n.t("mailFail")).empty(3e3);
                     if ("" == j) return void v.comment[0].focus();
                     E.comment = j, E.nick = E.nick || "Anonymous";
