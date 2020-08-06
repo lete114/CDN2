@@ -65,7 +65,7 @@ var myPix = new Array(
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/caofangkuai.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/erhun.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/haitun.gif",
-    "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/huadao.gif",
+    "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/tiejiang.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/huli.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/jieduoshou.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/kulipa.gif",
