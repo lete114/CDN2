@@ -75,6 +75,8 @@ var myPix = new Array(
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/tiekuilei.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/xiangzi.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/xiongmao.gif",
+    "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/plbj1.gif",
+    "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/plbj2.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/xueren1.gif",
     "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/Minecraft/xueren2.gif");
 var randomNum = Math.floor((Math.random() * myPix.length));
